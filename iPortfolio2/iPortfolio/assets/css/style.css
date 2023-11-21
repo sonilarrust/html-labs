@@ -10,8 +10,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
   color: #272829;
+  background-color: lightgray;
 }
 
 a {
@@ -30,7 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
 }
 
 /*--------------------------------------------------------------
@@ -104,6 +109,7 @@ h6 {
 #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
+
 }
 
 #header .profile .social-links a {
@@ -159,6 +165,7 @@ h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
+  margin: 30px;
 }
 
 .nav-menu * {
@@ -341,6 +348,8 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  margin: 30px;
+  padding-top: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -609,6 +618,9 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
+}
+.portfolio .portfolio-wrap .portfolio-links a:active {
+  background: violet;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -1002,7 +1014,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  /* background: #149ddd; */
+  background-color: green;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1011,7 +1024,12 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  /* background: #37b3ed; */
+  background-color: #18d26e;
+}
+.contact .php-email-form button[type=submit]:active {
+  /* background: #37b3ed; */
+  background-color: yellowgreen;
 }
 
 @keyframes animate-loading {
